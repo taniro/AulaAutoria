@@ -1,17 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import CondicionaisEffects from "./components/CondicionaisEffects";
+import Condicional from "./components/Condicional";
+import Empresas from "./components/Empresas";
+import ExemploRetornos from "./components/ExemploRetornos";
+import Formulario from "./components/Formulario";
+import Principal from "./components/Principal";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+//CSS
+import "./index.css";
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+ReactDOM.render(<Principal />, document.getElementById("root"));
